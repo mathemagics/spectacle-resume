@@ -1,7 +1,7 @@
 import React from "react";
 import { Text } from "spectacle";
 
-export const CardItem = (props, context) => {
+export const CardItem = (props) => {
 
   const style = {
     titleStyles: {
@@ -10,7 +10,7 @@ export const CardItem = (props, context) => {
       textColor: "#E0DFD5",
       margin: "0px 5px"
     },
-    bodyStyle: {
+    bodyStyles: {
       textAlign: "left",
       textSize: "25",
       textColor: "#F09D51",

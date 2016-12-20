@@ -11,7 +11,7 @@ const CodeCoreSlide = () => {
       />
       <CardItem
         title="Front End"
-        body="HTML, CSS, JavaScript, jQuery, Ajax, React"
+        body="HTML, CSS, JavaScript, jQuery, Ajax, React, React-Native"
       />
       <CardItem
         title="Back End"

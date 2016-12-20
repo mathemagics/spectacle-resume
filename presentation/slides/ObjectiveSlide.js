@@ -13,4 +13,4 @@ const ObjectiveSlide = () => {
   );
 };
 
-export default ObjectiveSlide;
+export {ObjectiveSlide};

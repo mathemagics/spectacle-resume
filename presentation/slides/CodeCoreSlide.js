@@ -1,6 +1,5 @@
 import React from "react";
-import { CardItem } from "./CardItem";
-import { SlideHeading } from "./SlideHeading";
+import { SlideHeading, CardItem } from "../components";
 
 const CodeCoreSlide = () => {
   return (
@@ -25,4 +24,4 @@ const CodeCoreSlide = () => {
   );
 };
 
-export default CodeCoreSlide;
+export {CodeCoreSlide};

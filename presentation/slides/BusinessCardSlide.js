@@ -2,9 +2,10 @@ import React from "react";
 import { Fill, Heading, Image, Layout, Link, Text} from "spectacle";
 
 const images = {
-  github: require("../assets/github-icon.png"),
-  linkedin: require("../assets/linkedin-icon.png")
+  github: require("../../assets/github-icon.png"),
+  linkedin: require("../../assets/linkedin-icon.png")
 };
+
 
 import preloader from "spectacle/lib/utils/preloader";
 preloader(images);
@@ -36,4 +37,4 @@ const BusinessCardSlide = () => {
   );
 };
 
-export default BusinessCardSlide;
+export {BusinessCardSlide};

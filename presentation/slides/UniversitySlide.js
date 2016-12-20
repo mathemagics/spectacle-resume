@@ -1,7 +1,5 @@
 import React from "react";
-import { CardItem } from "./CardItem";
-import { SlideHeading } from "./SlideHeading";
-
+import { CardItem, SlideHeading } from "../components";
 const UniversitySlide = () => {
   return (
     <div>
@@ -29,4 +27,4 @@ const UniversitySlide = () => {
   );
 };
 
-export default UniversitySlide;
+export {UniversitySlide};

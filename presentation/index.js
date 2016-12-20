@@ -9,13 +9,14 @@ import {
 } from "spectacle";
 
 //import components
-import CodeCoreSlide from "./CodeCoreSlide";
-import UniversitySlide from "./UniversitySlide";
-import BusinessCardSlide from "./BusinessCardSlide";
-import PokemanSlide from "./PokemanSlide";
-import ObjectiveSlide from "./ObjectiveSlide";
-import RnChessSlide from "./RnChessSlide";
-import ProjectsSlide from "./ProjectsSlide";
+import {
+  CodeCoreSlide,
+  UniversitySlide,
+  BusinessCardSlide,
+  PokemanSlide,
+  ObjectiveSlide,
+  RnChessSlide,
+  ProjectsSlide } from "./slides";
 
 // Import image preloader util
 import preloader from "spectacle/lib/utils/preloader";

@@ -1,12 +1,12 @@
 import React from "react";
 import { Heading, Image, Link, Text } from "spectacle";
-import { CardItem } from "./CardItem";
+import { CardItem } from "./";
 
 import preloader from "spectacle/lib/utils/preloader";
 
 const images = {
-  github: require("../assets/github-icon.png"),
-  heroku: require("../assets/heroku-icon2.png")
+  github: require("../../assets/github-icon.png"),
+  heroku: require("../../assets/heroku-icon2.png")
 };
 
 preloader(images);

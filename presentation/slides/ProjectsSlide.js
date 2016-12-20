@@ -1,6 +1,6 @@
 import React from "react";
 import { Heading } from "spectacle";
-import { ProjectItem } from "./ProjectItem";
+import { ProjectItem } from "../components";
 
 const ProjectsSlide = () => {
 
@@ -42,4 +42,4 @@ const ProjectsSlide = () => {
   );
 };
 
-export default ProjectsSlide;
+export {ProjectsSlide};

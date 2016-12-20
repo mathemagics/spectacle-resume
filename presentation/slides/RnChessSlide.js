@@ -1,13 +1,12 @@
 import React from "react";
 import { Image, Link, Text } from "spectacle";
-import { CardItem } from "./CardItem";
-import { SlideHeading } from "./SlideHeading";
+import { CardItem, SlideHeading } from "../components";
 import preloader from "spectacle/lib/utils/preloader";
 
 const images = {
-  github: require("../assets/github-icon.png"),
-  chess: require("../assets/chess.gif"),
-  heroku: require("../assets/heroku-icon2.png")
+  github: require("../../assets/github-icon.png"),
+  chess: require("../../assets/chess.gif"),
+  heroku: require("../../assets/heroku-icon2.png")
 };
 
 preloader(images);
@@ -37,4 +36,4 @@ const RnChessSlide = () => {
   );
 };
 
-export default RnChessSlide;
+export {RnChessSlide};

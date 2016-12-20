@@ -1,10 +1,13 @@
 import React from "react";
-import { Fill, Heading, Layout, Link, Slide, Text} from "spectacle";
+import { Fill, Heading, Image, Layout, Link, Text} from "spectacle";
 
 const images = {
   github: require("../assets/github-icon.png"),
   linkedin: require("../assets/linkedin-icon.png")
 };
+
+import preloader from "spectacle/lib/utils/preloader";
+preloader(images);
 
 const BusinessCardSlide = () => {
   return (
@@ -22,8 +25,12 @@ const BusinessCardSlide = () => {
         </Fill>
       </Layout>
       <Layout>
-        {/* <Link textAlign="left" href="https://github.com/mathemagics"><Image width="40px" margin="10px 10px"src={images.github}/></Link>
-        <Link textAlign="left" href="https://ca.linkedin.com/in/paul-bodnar"><Image width="46px" margin="7px 10px" src={images.linkedin}/></Link> */}
+        <Link textAlign="left" href="https://github.com/mathemagics">
+          <Image width="40px" margin="10px 10px"src={images.github}/>
+        </Link>
+        <Link textAlign="left" href="https://ca.linkedin.com/in/paul-bodnar">
+          <Image width="46px" margin="7px 10px" src={images.linkedin}/>
+        </Link>
       </Layout>
     </div>
   );

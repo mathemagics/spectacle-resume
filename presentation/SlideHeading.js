@@ -5,7 +5,8 @@ export const SlideHeading = (props) => {
   const style = {
     titleStyles: {
       textAlign: "left",
-      textColor: "#E0DFD5"
+      textColor: "#E0DFD5",
+      size: 6
     },
     subStyles: {
       textAlign: "left",
